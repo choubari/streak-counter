@@ -26,3 +26,7 @@ const streak = useStreak(localStorage, today);
 //    startDate: "11/11/2021",
 // }
 ```
+
+### Demo
+
+This [repository](https://github.com/choubari/streak-counter-demo) serves as a usecase demonstration of this npm package. The demo was created using [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
