@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: streak-counter
+        working-directory: ./
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
@@ -18,5 +18,5 @@ jobs:
       - uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_TOKEN }}
-          package: ./streak-counter/package.json
+          package: ./package.json
           access: public
